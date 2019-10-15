@@ -10,14 +10,6 @@
     }
   }
 }
-.navpic{
-  background-image: url('../images/cap.png');
-  background-repeat: no-repeat;
-  width: $sidebar-base-width;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -50,15 +42,24 @@
       margin-bottom: auto;
       .navbar-nav {
         flex-direction: column;
-
+        color: white !important;
         width: 100%;
         .nav-item {
           display: block;
           .nav-link {
             display: block;
+            color: white;
+              &:hover {
+                color:#fdc66d;
+              }
           }
         }
       }
     }
+  }
+}
+@media (max-width: 992px) {
+  #upNav{
+ 
   }
 }

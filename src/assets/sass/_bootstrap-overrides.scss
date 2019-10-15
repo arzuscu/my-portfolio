@@ -1,5 +1,14 @@
 .bg-primary {
   background-color: $primary !important;
+  background-image: url('../images/cap2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-color: $primary;
+  // z-index: 2;
+  // width: $sidebar-base-width;
+  // display: flex;
+  // flex-direction: column;
+  // height: 100vh;
 }
 
 .text-primary {

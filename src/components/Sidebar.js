@@ -25,17 +25,18 @@ export class Sidebar extends Component {
     const { tabs } = this.state;
     return (
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top navpic"
+        className="navbar navbar-expand-lg navbar-nav navbar-dark bg-primary fixed-top navpic"
         id="sideNav"
       >
       {/* <img className="navpic" alt=""/> */}
         <a className="navbar-brand" href="#page-top">
-          <span className="d-block d-lg-none">
+          {/* <span className="d-block d-lg-none">
             {config.firstName}
-          </span>
-          <span className="d-block d-lg-none">
+          </span> */}
+          {/* <span className="d-block d-lg-none">
             {config.lastName}
-          </span>
+          </span> */}
+          {/* <img className= "bg-primary" alt=""/> */}
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -44,7 +45,7 @@ export class Sidebar extends Component {
             />
           </span>
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -53,8 +54,8 @@ export class Sidebar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+           <span className="navbar-toggler-icon"></span>
+        </button> */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <Scrollspy
             items={tabs.map(s => s.href)}

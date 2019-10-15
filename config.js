@@ -23,14 +23,9 @@ module.exports = {
       url: 'https://linkedin.com/in/theanubhav/',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fas fa-file-alt',
+      name: 'File',
+      url: './src/assets/file/ArzuYildizResume.pdf',
     },
   ],
   email: 'anubhav.srivastava00@gmail.com',
