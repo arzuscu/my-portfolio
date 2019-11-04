@@ -1,8 +1,14 @@
 #sideNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
+  
   }
   .navbar-toggler {
     &:focus {
@@ -16,7 +22,6 @@
     position: fixed;
     top: 0;
     left: 0;
-
     display: flex;
     flex-direction: column;
 

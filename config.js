@@ -25,7 +25,7 @@ module.exports = {
     {
       icon: 'fas fa-file-alt',
       name: 'File',
-      url: './src/assets/file/ArzuYildizResume.pdf',
+      url: `${__dirname}../../src/assets/file/ArzuYildizResume.pdf`,
     },
   ],
   email: 'anubhav.srivastava00@gmail.com',
